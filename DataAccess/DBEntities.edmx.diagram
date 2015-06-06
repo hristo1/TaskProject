@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="51200728726048c48640f8b427c6c61e" Name="Diagram1">
+        <EntityTypeShape EntityType="DBProject.Report" Width="1.5" PointX="3.5" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBProject.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBProject.Task" Width="1.5" PointX="1.375" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBProject.User" Width="1.5" PointX="3.625" PointY="1.5" IsExpanded="true" />
+        <AssociationConnector Association="DBProject.FK_Report_Tasks" ManuallyRouted="false" />
+        <AssociationConnector Association="DBProject.FK_Report_User" ManuallyRouted="false" />
+        <AssociationConnector Association="DBProject.FK_Tasks_User" ManuallyRouted="false" />
+        <AssociationConnector Association="DBProject.FK_Tasks_User1" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DBProject.Comment1" Width="1.5" PointX="6.375" PointY="0.75" />
+        <AssociationConnector Association="DBProject.FK_Comment_Tasks" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
