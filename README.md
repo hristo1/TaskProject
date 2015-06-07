@@ -8,7 +8,7 @@ What exactly does this project ?
 ###
  
 This project has been created with educational purposes(done for 3 days). It is fully functional.
-It is a WinForms application which implements EF, divided into user interface and Data Access.
+It is a WinForms application which implements EF(Database First), divided into user interface and Data Access.
  
 Project's module consists of:
  
